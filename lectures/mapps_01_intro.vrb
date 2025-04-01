@@ -1,0 +1,25 @@
+
+		\frametitle{Sample Dart Code}
+
+\scriptsize
+		\begin{lstlisting}[language=Java]
+// A simple Dart class
+class User {
+	final String name;
+	final int age;
+	
+// Constructor
+	User(this.name, this.age);
+
+// Method
+String greet() {
+	return "Hello, my name is $name and I'm $age years old.";
+}
+}
+
+// Using the class
+void main() {
+	var user = User("Alex", 25);
+	print(user.greet());
+}
+		\end{lstlisting}
